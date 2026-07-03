@@ -1001,10 +1001,13 @@
       // Keep data safely stored even if user leaves the tab open.
       saveDraft();
     }, 8000);
+  </script>
+
+  <script>
 const password = prompt("Enter Password:");
-if (password !== "MySecret123@#") {
+if (password !== "MySecret123") {
     document.body.innerHTML = "<h1>Access Denied</h1>";
 }
-  </script>
+</script>
 </body>
 </html>
